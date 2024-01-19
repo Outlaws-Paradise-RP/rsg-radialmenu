@@ -1,6 +1,6 @@
 Config = {}
 
-Config.EnableExtraMenu = false
+Config.EnableExtraMenu = true
 
 Config.MenuItems = {
     [1] = {
@@ -296,7 +296,14 @@ Config.JobInteractions = {
             type = 'command',
             event = 'lawbadge',
             shouldClose = true
-        },
+        }, { 
+            id = 'mdt', 
+            title = 'MDT', 
+            icon = 'mobile-screen', 
+            type = 'command', 
+            event = 'mdt', 
+            shouldClose = true 
+        }
     },
     ["rholaw"] = {
         {
@@ -334,7 +341,14 @@ Config.JobInteractions = {
             type = 'command',
             event = 'lawbadge',
             shouldClose = true
-        },
+        }, { 
+            id = 'mdt', 
+            title = 'MDT', 
+            icon = 'mobile-screen', 
+            type = 'command', 
+            event = 'mdt', 
+            shouldClose = true 
+        }
     },
     ["blklaw"] = {
         {
@@ -372,7 +386,14 @@ Config.JobInteractions = {
             type = 'command',
             event = 'lawbadge',
             shouldClose = true
-        },
+        }, { 
+            id = 'mdt', 
+            title = 'MDT', 
+            icon = 'mobile-screen', 
+            type = 'command', 
+            event = 'mdt', 
+            shouldClose = true 
+        }
     },
     ["strlaw"] = {
         {
@@ -410,7 +431,14 @@ Config.JobInteractions = {
             type = 'command',
             event = 'lawbadge',
             shouldClose = true
-        },
+        }, { 
+            id = 'mdt', 
+            title = 'MDT', 
+            icon = 'mobile-screen', 
+            type = 'command', 
+            event = 'mdt', 
+            shouldClose = true 
+        }
     },
     ["stdenlaw"] = {
         {
@@ -448,7 +476,14 @@ Config.JobInteractions = {
             type = 'command',
             event = 'lawbadge',
             shouldClose = true
-        },
+        }, { 
+            id = 'mdt', 
+            title = 'MDT', 
+            icon = 'mobile-screen', 
+            type = 'command', 
+            event = 'mdt', 
+            shouldClose = true 
+        }
     },
     ["horsetrainer"] = {
         {
